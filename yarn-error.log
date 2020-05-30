@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install --modules-folder ./_assets/yarn
+
+PATH: 
+  /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/pi/git/prrapo.github.io/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  linux arm
+
+Trace: 
+  Error: https://registry.yarnpkg.com/npm/-/npm-6.14.5.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141375:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "chalk",
+    "scripts": {
+      "setup": "bin/setup",
+      "local": "bundle exec jekyll serve --drafts",
+      "publish": "bin/deploy"
+    },
+    "dependencies": {
+      "jquery": "^3.2.1",
+      "npm": "^6.0.1",
+      "retinajs": "^2.1.1",
+      "svgxuse": "^1.2.4",
+      "webfontloader": "^1.6.28",
+      "zooming": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
