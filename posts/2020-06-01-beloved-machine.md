@@ -14,4 +14,4 @@ Also my Google Voice AIY (v1) device.
 
 Case 3D printed with my homebuilt Anet A8 using Inland brand black PLA. Using model from this [thingiverse](https://www.thingiverse.com/thing:2592639) 
 
-{% include image.html path="1111-resize.png%}
+{% include image.html path="1111-resize.png"%}
