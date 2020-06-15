@@ -7,12 +7,21 @@
     <atom:link href="http://prrapo.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Beloved Machine #2</title>
+        <description>Pandora's Box</description>
+        <pubDate>Sat, 13 Jun 2020 00:00:00 +0100</pubDate>
+        <link>http://prrapo.github.io/posts/beloved-machine-2</link>
+        <guid isPermaLink="true">http://prrapo.github.io/posts/beloved-machine-2</guid>
+      </item>
+    
+      <item>
         <title>Beloved Machine #1</title>
-        <description>Raspberry Pi Codename blackbox</description>
+        <description>Raspberry Pi cCodename blackbox</description>
         <pubDate>Mon, 01 Jun 2020 00:00:00 +0100</pubDate>
         <link>http://prrapo.github.io/posts/beloved-machine</link>
         <guid isPermaLink="true">http://prrapo.github.io/posts/beloved-machine</guid>
       </item>
     
+
   </channel>
 </rss>
